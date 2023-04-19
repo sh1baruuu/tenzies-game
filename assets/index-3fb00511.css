@@ -232,10 +232,9 @@ header{
    zoom: reset;
    zoom: 100%;
 }
-  }
-  .dieIcon{
+.dieIcon{
   font-size: 3em;
-  }
+ }
   .roll-dice {
     margin-bottom: 50px;
     transform: translate(0, -50px);
