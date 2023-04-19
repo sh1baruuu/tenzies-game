@@ -26,7 +26,7 @@ main {
   width: 100vw;
   display: flex;
   align-items: center;
-  background-color: yellow;
+  background-color: aqua;
   align-content: space-between;
   flex-direction: column;
   justify-content: space-between;
@@ -224,9 +224,8 @@ header{
     height: clamp(20px, 7vw, 40px);
     width: clamp(20px, 7vw, 40px);
   }
-  
-  main{
-  height: 100%;
+  body{
+  overflow: hidden;
   }
   .roll-dice {
     margin-bottom: 50px;
