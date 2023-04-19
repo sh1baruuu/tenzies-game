@@ -1,9 +1,12 @@
 {
   "name": "tenzies",
   "private": true,
+  "homepage": "https://sh1baruuu.github.io/tenzies-game",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -14,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "framer-motion": "^10.12.4",
+    "gh-pages": "^5.0.0",
     "nanoid": "^4.0.2",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
