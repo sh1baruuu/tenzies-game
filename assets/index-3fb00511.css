@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--color-1);
+  background-color: red;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -26,6 +26,7 @@ main {
   width: 100vw;
   display: flex;
   align-items: center;
+  background-color: yellow;
   align-content: space-between;
   flex-direction: column;
   justify-content: space-between;
@@ -104,6 +105,7 @@ header{
   place-items: center;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 30px;
+  background-color: green;
 }
 
 .die-face {
@@ -213,7 +215,7 @@ header{
 
 @media only screen and (max-width: 600px) {
   .dice-container {
-    width: 200px;
+    max-width: 400px;
     grid-template: auto auto / repeat(5, clamp(40px, 15vw, 50px));
     gap: 5px;
   }
