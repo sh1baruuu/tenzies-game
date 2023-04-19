@@ -22,3 +22,18 @@ header{padding:20px 30px;display:flex;height:70px;width:100%;align-items:center;
 .roll-dice{height:50px;width:150px;border:none;border-radius:15px;background-color:#049507;color:#fff;font-size:1.2rem;cursor:pointer;justify-self:flex-end;border:solid 2px #036805;box-shadow:inset 3px 3px 5px 5px #fff3,inset -3px -3px 5px 5px #0006}.roll-dice:focus{outline:none}
 
 .roll-dice:active,.newGame:active{box-shadow:none}.timerIcon{font-size:.9em;margin-right:5px}.newGame{margin-bottom:15px;height:50px;width:140px;border:none;border-radius:6px;background-color:#049507;border:solid 2px #036805;box-shadow:inset 3px 3px 5px 5px #fff3,inset -3px -3px 5px 5px #0006;color:#fff;font-size:1rem;cursor:pointer;justify-self:flex-end}.star{color:#fb0;margin:10px 0 15px}.starIcon{font-size:3.8em}.starIcon:nth-child(2){margin:0 10px}.starIcon:last-child,.starIcon:first-child{font-size:3em;transform:translateY(10px)}.modalTimer{margin-top:10px;margin-bottom:auto}.reset-button{display:grid;place-items:center;cursor:pointer;width:40px;height:40px;position:absolute;bottom:0;border-radius:50% 50% 50% 0;color:#fff;background-color:#049507;box-shadow:inset 2px 2px 5px 5px #fff3,inset -2px -2px 5px 5px #0006;left:0}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .dice-container {
+    grid-template: auto auto / repeat(3, clamp(40px, 15vw, 50px));
+    gap: 5px;
+  }
+
+  .die-face {
+    height: clamp(20px, 7vw, 40px);
+    width: clamp(20px, 7vw, 40px);
+  }
+}
