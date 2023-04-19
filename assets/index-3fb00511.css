@@ -1,5 +1,7 @@
 :root{--color-1: #F5F5F5;--shadow: -10px -10px 30px 0 #FFFFFF, 10px 10px 30px 0 red 40%}::selection{display:none}*{box-sizing:border-box;margin:0;font-family:Karla,sans-serif
-}body{background-color:var(--color-1);display:flex;align-content:center;justify-content:center}
+}
+
+body{background-color:var(--color-1);display:flex;align-content:center;justify-content:center}
 
 main{padding:200px 20px 80px;height:100vh;width: 100vw;display:flex;align-items:center;align-content:space-between;flex-direction:column;justify-content:space-between;position:relative}
 
@@ -13,9 +15,9 @@ header{padding:20px 30px;display:flex;height:70px;width:100%;align-items:center;
 
 .backdrop{width:100vw;height:100vh;background-color:#00000080;position:absolute;top:0;left:0}.dieIcon{font-size:clamp(3em,6vw,5em)}
 
-.dice-container{display:grid;place-items:center;width:clamp(280px, 80%, 400px);grid-template:auto auto / repeat(5,clamp(50px,15vw,50px));
+.dice-container{display:grid;place-items:center;width:clamp(280px, 80%, 400px);grid-template:auto auto / repeat(5,clamp(50px,15vw,50px));gap:10px;margin:0 auto;max-width:750px}
 
-gap:10px;margin:0 auto;max-width:750px}.die-face{height:clamp(40px,7vw,70px);width:clamp(40px,7vw,70px);box-shadow:var(--shadow);border-radius:10px;display:flex;justify-content:center;align-items:center;cursor:pointer}.die-face:active{transform:scale(.8)}.die-num{font-size:2rem}
+.die-face{height:clamp(40px,7vw,70px);width:clamp(40px,7vw,70px);box-shadow:var(--shadow);border-radius:10px;display:flex;justify-content:center;align-items:center;cursor:pointer}.die-face:active{transform:scale(.8)}.die-num{font-size:2rem}
 
 .roll-dice{height:50px;width:150px;border:none;border-radius:15px;background-color:#049507;color:#fff;font-size:1.2rem;cursor:pointer;justify-self:flex-end;border:solid 2px #036805;box-shadow:inset 3px 3px 5px 5px #fff3,inset -3px -3px 5px 5px #0006}.roll-dice:focus{outline:none}
 
