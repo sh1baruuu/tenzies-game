@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: red;
+  background-color: var(--color-1);
   display: flex;
   align-content: center;
   justify-content: center;
@@ -217,7 +217,7 @@ header{
   .dice-container {
     max-width: 400px;
     grid-template: auto auto / repeat(5, clamp(40px, 15vw, 50px));
-    gap: 5px;
+    gap: 10px;
   }
 
   .die-face {
