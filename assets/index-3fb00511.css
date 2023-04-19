@@ -15,7 +15,7 @@ header{padding:20px 30px;display:flex;height:70px;width:100%;align-items:center;
 
 .backdrop{width:100vw;height:100vh;background-color:#00000080;position:absolute;top:0;left:0}.dieIcon{font-size:clamp(3em,6vw,5em)}
 
-.dice-container{display:grid;place-items:center;width:clamp(280px, 80%, 400px);grid-template:auto auto / repeat(5,clamp(50px,15vw,50px));gap:10px;margin:0 auto;max-width:750px}
+.dice-container{display:grid;place-items:center;grid-template:auto auto / repeat(5,clamp(50px,15vw,50px));gap:30px;margin:0 auto;max-width:750px}
 
 .die-face{height:clamp(40px,7vw,70px);width:clamp(40px,7vw,70px);box-shadow:var(--shadow);border-radius:10px;display:flex;justify-content:center;align-items:center;cursor:pointer}.die-face:active{transform:scale(.8)}.die-num{font-size:2rem}
 
@@ -28,6 +28,7 @@ header{padding:20px 30px;display:flex;height:70px;width:100%;align-items:center;
 
 @media only screen and (max-width: 600px) {
   .dice-container {
+    width: 200px;
     grid-template: auto auto / repeat(3, clamp(40px, 15vw, 50px));
     gap: 5px;
   }
@@ -38,5 +39,6 @@ header{padding:20px 30px;display:flex;height:70px;width:100%;align-items:center;
   }
   .roll-dice {
     margin-bottom: 50px;
+    transform: translate(0, -50px);
   }
 }
