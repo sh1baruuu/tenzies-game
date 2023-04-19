@@ -30,6 +30,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  background-color: var(--color-1);
 }
 
 header{
@@ -103,6 +104,7 @@ header{
   display: grid;
   place-items: center;
   grid-template: auto auto / repeat(5, 1fr);
+  background-color: var(--color-1);
   gap: 30px;
 }
 
