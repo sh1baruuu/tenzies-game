@@ -36,4 +36,7 @@ header{padding:20px 30px;display:flex;height:70px;width:100%;align-items:center;
     height: clamp(20px, 7vw, 40px);
     width: clamp(20px, 7vw, 40px);
   }
+  .roll-dice {
+    margin-bottom: 50px;
+  }
 }
