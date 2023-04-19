@@ -227,6 +227,11 @@ header{
   }
   body{
    height: 80vh;
+   touch-action: pan-x pan-y;
+   user-select: none;
+   zoom: reset;
+   zoom: 100%;
+}
   }
   .dieIcon{
   font-size: 3em;
