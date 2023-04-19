@@ -26,7 +26,6 @@ main {
   width: 100vw;
   display: flex;
   align-items: center;
-  background-color: yellow;
   align-content: space-between;
   flex-direction: column;
   justify-content: space-between;
@@ -105,7 +104,6 @@ header{
   place-items: center;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 30px;
-  background-color: green;
 }
 
 .die-face {
@@ -200,7 +198,7 @@ header{
   cursor: pointer;
   width: 40px;
   height: 40px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-radius: 50% 50% 50% 0;
   color: white;
@@ -218,6 +216,7 @@ header{
     max-width: 400px;
     grid-template: auto auto / repeat(5, clamp(40px, 15vw, 50px));
     gap: 10px;
+    row-gap: 20px;
   }
 
   .die-face {
