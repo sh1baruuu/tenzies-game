@@ -206,7 +206,6 @@ header{
   box-shadow: inset 2px 2px 5px 5px rgba(255, 255, 255, 0.2),
   inset -2px -2px 5px 5px rgba(0, 0, 0, 0.4);
   left: 0;
-
 }
 
 
@@ -215,13 +214,17 @@ header{
 @media only screen and (max-width: 600px) {
   .dice-container {
     width: 200px;
-    grid-template: auto auto / repeat(3, clamp(40px, 15vw, 50px));
+    grid-template: auto auto / repeat(5, clamp(40px, 15vw, 50px));
     gap: 5px;
   }
 
   .die-face {
     height: clamp(20px, 7vw, 40px);
     width: clamp(20px, 7vw, 40px);
+  }
+  
+  main{
+  height: 100%;
   }
   .roll-dice {
     margin-bottom: 50px;
