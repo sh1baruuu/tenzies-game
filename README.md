@@ -4,7 +4,7 @@ This is a simple implementation of the classic dice game Tenzie using React.
 
 ## Getting Started
 
-To play the game, simply click on this link: [Tenzie Game](https://sh1baruuu.github.io/tenzie-game).
+To play the game, simply click on this link: [Tenzie Game](https://sh1baruuu.github.io/tenzies-game).
 
 If you want to modify the code or run the game locally, follow these steps:
 
